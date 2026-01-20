@@ -18,7 +18,7 @@
 #
 
 # Define hardware platform
-PRODUCT_RELEASE_NAME := RMXTARO
+PRODUCT_RELEASE_NAME := OP5913L1
 
 # Device path for OEM device tree
 DEVICE_PATH := device/realme/$(PRODUCT_RELEASE_NAME)
@@ -36,8 +36,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
-PRODUCT_BRAND := realme
-PRODUCT_MODEL := RMXTARO
-PRODUCT_MANUFACTURER := realme
+PRODUCT_BRAND := OnePlus
+PRODUCT_MODEL := OP5913L1
+PRODUCT_MANUFACTURER := OnePlus
 
 #
