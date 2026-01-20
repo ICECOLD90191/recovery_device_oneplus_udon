@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_RMXTARO.mk
+    $(LOCAL_DIR)/twrp_udon.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_RMXTARO-eng
+    twrp_udon-eng
